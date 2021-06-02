@@ -1,1 +1,1 @@
-repo_token: 1HaTfWuTw7pbwLjbbJCrgvqR7Y7anI0gr1
+repo_token: ${{ secrets.NPM_TOKEN }}
