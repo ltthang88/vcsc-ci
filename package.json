@@ -1,0 +1,18 @@
+{
+  "name": "cau_2_3_5",
+  "version": "1.0.0",
+  "description": "Finish Test VCSC",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "author": "ltthang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "supertest": "^6.1.3"
+  }
+}
