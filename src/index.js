@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 });
 
 app.get('/find-square', require('./api/find-square'));
-
+app.get('/test-connect-database', require('./api/test-connect-database'));
 
 app.listen(port, () => {
     console.log(`Server is running on ${port}...`)
