@@ -4,7 +4,7 @@ const cors =  require("cors");
 require('dotenv').config({ silent: true });
 
 const app = express();
-const port = process.env.PORT;
+const { PORT = 3000 } = process.env;
 
 app.use(bodyParser.json());
 
@@ -19,8 +19,8 @@ app.get("/", (req, res) => {
 app.get('/find-square', require('./api/find-square'));
 app.get('/test-connect-database', require('./api/test-connect-database'));
 
-app.listen(port, () => {
-    console.log(`Server is running on ${port}...`)
+app.listen(PORT, () => {
+    console.log(`Server is running on ${PORT}...`)
 })
 
 module.exports = app
