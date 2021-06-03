@@ -11,7 +11,10 @@ curl --request GET \
 ```
 
 #
-**Câu 2:**  Em sử dụng Github Action, để build code, và coverage lên https://coveralls.io/ Mong muốn tổ chức commit code theo git-flow, em có demo release 1 version, sau đó merge vào master.
+**Câu 2:**  Em sử dụng Github Action, để build code, và coverage lên https://coveralls.io/.
+<br>File **.coveralls.yml** chưa tìm được cách sử dụng được biến secret COVERALLS_REPO_TOKEN, trong Environments, do mình không được public token này lên github.<br>
+
+Mong muốn tổ chức commit code theo git-flow, em có demo release 1 version, sau đó merge vào master.
 
 # 
 **Câu 3:** Em viết test case nằm trong thư mục test/square.js.
